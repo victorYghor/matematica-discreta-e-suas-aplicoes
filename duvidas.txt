@@ -1,0 +1,2 @@
+Existe definição de mdc para o 0, porque ele não tem divisor
+existe definição de mmc para o 0? porque ele é multiplo de todos os numeros?
