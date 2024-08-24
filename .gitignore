@@ -5,3 +5,5 @@
 *.log
 *.synctext.gz
 *.gz
+.idea
+*.pyc

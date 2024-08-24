@@ -1,9 +1,11 @@
-#! /usr/bin/python3
+#! venv/bin/python3
 
-from pdfmerge import pdfmerge
 import sys
 
-# pegar os argumentos separa as variaveis 
-print('funcoinou')
+from create_exercise import create_exercise
 
-# fazer string interpol para cirar o nome dos arquivos e o nome do arquivo resultado e gerar ele.
+try:
+    create_exercise(sys.argv[1], sys.argv[2])
+
+except IndexError:
+    print('Please put 2 arguments in the function')
